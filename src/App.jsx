@@ -1,8 +1,14 @@
 import React from 'react'
-import Portfolio from "./components/Portfolio"
+import Header1 from "./components/Header1"
+import Bodyt from "./components/Bodyt"
+import Projects from "./components/Projects"
 export default function App() {
   return (
-      <Portfolio/>
-    
+    <div>
+      <Header1/>
+      <Bodyt/>
+      <Projects/>
+
+    </div>
   )
 }
